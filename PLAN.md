@@ -19,7 +19,6 @@ Create a Raycast extension command named `Proofread Selection` that lets Espen s
 RayRead/
   assets/
     extension-icon.png
-    extension-icon.svg
   PLAN.md
   README.md
   package.json
@@ -98,6 +97,7 @@ Before handoff:
 - `npm install`
 - `npm run build`
 - `npm run lint`
+- verify `assets/extension-icon.png` is 512 x 512
 - inspect generated files and command manifest
 
 Manual app test:
